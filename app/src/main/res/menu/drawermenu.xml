@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/news"  android:title="News"/>
+    <group android:id="@+id/news_group" android:checkableBehavior="single">
+        <item android:id="@+id/news_hypergh" android:icon="@drawable/alpha_h" android:title="HyperGh News"/>
+        <item android:id="@+id/news_hypercity" android:icon="@drawable/alpha_h" android:title="HyperCity News"/>
+        <item android:id="@+id/new_myjoy" android:icon="@drawable/alpha_m" android:title="MyJoyOnline News"/>
+        <item android:id="@+id/news_focusfm" android:icon="@drawable/alpha_f" android:title="Focus fm News"/>
+    </group>
+
+
+    <item android:id="@+id/others"  android:title="Others"/>
+    <group android:id="@+id/other_group" android:checkableBehavior="single">
+        <item android:id="@+id/menu_broadcast" android:icon="@drawable/alpha_b" android:title="Broadcast"/>
+        <item android:id="@+id/sus_rus" android:icon="@drawable/alphabets_s"  android:title="Suspects/Rusticants"/>/>
+    </group>
+
+
+
+
+
+</menu>
